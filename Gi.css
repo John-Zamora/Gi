@@ -1,7 +1,7 @@
 .body {
     @font-face {
         font-family: Futura;
-        src: url('.../Futura-Medium.woff') format("WOFF");
+        src: url('Futura-Medium.woff') format("WOFF");
         font-weight: normal;
       }
 }

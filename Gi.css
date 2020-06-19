@@ -28,6 +28,8 @@ body {
 body {
     background-color: #1b1b1b;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 0rem;
 }
 /* Global Styles End */
 
@@ -103,8 +105,52 @@ a:hover::before {
 /* Mobile Style end */
 
 
+/* Main */
+/* Desktop Style Start */
+main {
+    display: grid;
+    grid-template-columns: 98vw;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 1rem;
+
+    padding: 1vw;
+}
+
+.double-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: auto;
+    grid-column-gap: 1rem;
+}
+
+.triple-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Desktop Style End */
 
 
+/* Footer */
+/* Desktop Style Start */
+footer {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    padding: 2rem;
+    justify-content: center;
+    justify-items: center;
+    color: #ffffff;
+}
+/* Desktop Style End */
 
 
 
